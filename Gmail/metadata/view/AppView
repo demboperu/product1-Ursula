@@ -1,0 +1,827 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "AppView",
+        "id": "appView",
+        "itemId": "appView",
+        "layout": "card"
+    },
+    "designerId": "015f3750-4435-48a1-8eea-c1cab5b55277",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "LoginPanel",
+                "header": false,
+                "itemId": "loginPanel",
+                "title": "Login",
+                "titleAlign": "center",
+                "width": 150
+            },
+            "designerId": "84ec3fc4-840e-4f0c-9556-56caf18fae39",
+            "cn": [
+                {
+                    "type": "Ext.form.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "title",
+                        "hidden": true,
+                        "html": "<div class=\"banner\"> <h1>   Una cuenta. Todo Google. </h1>   <h2 class=\"hidden-small\">   Inicia sesión para acceder a Gmail   </h2> </div>",
+                        "id": "",
+                        "text": null
+                    },
+                    "designerId": "82c90304-c537-4707-b291-11b4c2966013"
+                },
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "designer|displayName": "LoginForm",
+                        "designer|uiInterfaceName": "loginform",
+                        "header": false,
+                        "height": 350,
+                        "id": "loginForm",
+                        "itemId": "loginForm",
+                        "title": "My Form",
+                        "ui": "loginform",
+                        "width": 360
+                    },
+                    "designerId": "c0429b25-9eb6-4504-8593-90da9bbd6901",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 96,
+                                "id": "profile-img",
+                                "src": "resources/images/avatar.png",
+                                "width": 96
+                            },
+                            "designerId": "e6d553c0-666c-46f6-a4cb-0c32706a6c45"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "txtUser",
+                                "emptyText": "  Email",
+                                "fieldLabel": null,
+                                "formItemCls": "",
+                                "height": 44,
+                                "id": "txtUser",
+                                "itemId": "txtUser",
+                                "layout|anchor": "100%",
+                                "margin": null,
+                                "maxWidth": 274,
+                                "padding": null,
+                                "regexText": "Enter your email.",
+                                "width": null
+                            },
+                            "designerId": "e1dff3a0-987b-43ed-be78-edf9dcfe7903"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "defaultAlign": null,
+                                "designer|displayName": "txtPassword",
+                                "emptyText": "  Password",
+                                "fieldLabel": null,
+                                "height": 44,
+                                "id": "txtPassword",
+                                "inputType": "password",
+                                "itemId": "txtPassword",
+                                "labelWidth": null,
+                                "layout|anchor": "100%",
+                                "maxWidth": 274,
+                                "width": null
+                            },
+                            "designerId": "5841e1a8-1510-43ce-a88e-97303cf4f7ad"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "btnLogin",
+                                "height": 35,
+                                "id": "btnLogin",
+                                "itemId": "btnLogin",
+                                "text": "Login",
+                                "width": 274
+                            },
+                            "designerId": "0959399f-ff09-41d9-a2ba-281e402b9e12"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "MainPanel",
+                "designer|uiInterfaceName": "loginform",
+                "header": false,
+                "itemId": "mainPanel",
+                "layout": "border",
+                "title": "My Panel",
+                "ui": "loginform"
+            },
+            "designerId": "50ddf6ec-31c3-4692-87af-8a1b531286aa",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "headerPanel",
+                        "designer|uiInterfaceName": "headerpanelstyle",
+                        "height": 68,
+                        "itemId": "headerPanel",
+                        "layout": "border",
+                        "layout|region": "north",
+                        "title": "Bienvenido, usuario",
+                        "titleAlign": "right",
+                        "ui": "headerpanelstyle"
+                    },
+                    "designerId": "adae46af-eb5e-4c7b-938d-7ae72a06037a",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": false,
+                                "cls": "centerAlign",
+                                "header": false,
+                                "id": "titlePanel",
+                                "layout|flex": 0.3,
+                                "layout|region": "west",
+                                "title": "leftPanel",
+                                "width": 150
+                            },
+                            "designerId": "d3ec197f-74f8-4453-b7fb-a56b43df46ac",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "mainTitle",
+                                        "text": "VMail"
+                                    },
+                                    "designerId": "ff62ae34-4942-482c-b28c-247ef1d508b6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": false,
+                                "cls": "textLeftAligned",
+                                "header": false,
+                                "layout": null,
+                                "layout|flex": 1.5,
+                                "layout|region": "center",
+                                "title": "centerPanel",
+                                "titleAlign": "center"
+                            },
+                            "designerId": "ec1ea72c-4ecd-4860-964c-e9f13ffca8ce",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "baseCls": null,
+                                        "border": " ",
+                                        "cls": "btnGray",
+                                        "designer|displayName": "refreshButton",
+                                        "height": null,
+                                        "icon": "resources/images/reload.png",
+                                        "iconCls": null,
+                                        "itemId": "btnRefresh",
+                                        "margin": "6 2 6 2",
+                                        "padding": "6px 18px 6px 25px",
+                                        "text": " ",
+                                        "width": null
+                                    },
+                                    "designerId": "40a66189-3fda-4475-bf51-c324786e3f41"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "baseCls": null,
+                                        "border": " ",
+                                        "cls": "btnGray",
+                                        "height": null,
+                                        "icon": "resources/images/mail.png",
+                                        "iconCls": null,
+                                        "itemId": "newMailButton",
+                                        "margin": "6 2 6 2",
+                                        "padding": "6px 18px 6px 25px",
+                                        "text": " ",
+                                        "width": null
+                                    },
+                                    "designerId": "34c3d7d3-7748-4c69-b106-a214a9ce1034"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": "",
+                                        "cls": "btnGray",
+                                        "height": null,
+                                        "icon": "resources/images/trash.png",
+                                        "id": "deleteButton",
+                                        "itemId": "btnDeleteSelected",
+                                        "margin": "6 2 6 2",
+                                        "padding": "6px 18px 6px 25px",
+                                        "text": " "
+                                    },
+                                    "designerId": "8e6b2ca1-f879-4541-9f83-0880f69993b7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": false,
+                                "cls": "textRightAligned",
+                                "header": false,
+                                "layout|flex": 0.3,
+                                "layout|region": "east",
+                                "title": "rightPanel",
+                                "width": 210
+                            },
+                            "designerId": "dc8d4c77-819d-4193-a302-9190c50d950f",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": " ",
+                                        "cls": "btnGray",
+                                        "height": null,
+                                        "icon": "resources/images/lock.png",
+                                        "id": "btnLogout",
+                                        "itemId": "btnLogout",
+                                        "margin": "6 2 6 2",
+                                        "padding": "6px 18px 6px 25px",
+                                        "text": " "
+                                    },
+                                    "designerId": "96108f16-d60c-4e0b-8a91-9929a3b79873"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "autoScroll": true,
+                        "baseCls": null,
+                        "bodyPadding": "",
+                        "collapsible": false,
+                        "designer|displayName": "rightPanel",
+                        "header": false,
+                        "itemId": "leftPanel",
+                        "layout": "fit",
+                        "layout|flex": 0.3,
+                        "layout|region": "east",
+                        "layout|split": true,
+                        "title": "Contacts",
+                        "width": 150
+                    },
+                    "designerId": "4e40eb5a-6ac5-4ebd-a72e-8e52c98fdbf8",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "Add some contacts",
+                                "header": false,
+                                "hideHeaders": true,
+                                "itemId": "contactGrid",
+                                "manageHeight": false,
+                                "margin": "",
+                                "maxHeight": null,
+                                "store": "ContactStore",
+                                "title": "My Grid Panel"
+                            },
+                            "designerId": "68e4cfaf-862d-41fa-a22d-74e364450e60",
+                            "cn": [
+                                {
+                                    "type": "Ext.grid.column.Template",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "status",
+                                        "flex": 1,
+                                        "text": "MyTemplateColumn1"
+                                    },
+                                    "designerId": "4878f2f5-c071-480b-8df1-f882c195b55d",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.XTemplate",
+                                            "reference": {
+                                                "name": "tpl",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|displayName": "tpl",
+                                                "implHandler": [
+                                                    "<table>\r",
+                                                    "    <tr>\r",
+                                                    "        <td style=\"padding-right: 8px; vertical-align:middle;\">\r",
+                                                    "            <img src=\"resources/images/status/{status}.png\" title=\"{status} Priority\" style=\"margin-bottom: -2px;\" />&nbsp;{name}&nbsp;{lastname}\r",
+                                                    "        </td>\r",
+                                                    "    </tr>\r",
+                                                    "</table>"
+                                                ]
+                                            },
+                                            "designerId": "ec495608-b26d-42c1-b85a-9ba881d5cf36"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.grid.View",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "f504a190-45f3-42f9-9b9c-39cc5a6c197d"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": null,
+                        "collapsible": false,
+                        "draggable": true,
+                        "header": false,
+                        "itemId": "centerPanel",
+                        "layout": "border",
+                        "layout|flex": 1.5,
+                        "layout|region": "center",
+                        "layout|split": true,
+                        "minWidth": 200,
+                        "padding": null,
+                        "title": "Mail"
+                    },
+                    "designerId": "a8ea999e-caee-40aa-aae8-e8bb6cac3932",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": "2 2 2 2",
+                                "collapsed": false,
+                                "collapsible": false,
+                                "forceFit": true,
+                                "header": false,
+                                "hideHeaders": true,
+                                "id": "gridMailPanel",
+                                "itemId": "gridPanel",
+                                "layout|flex": 1,
+                                "layout|region": "west",
+                                "layout|split": true,
+                                "manageHeight": false,
+                                "store": "MailStore",
+                                "title": "Inbox",
+                                "width": 150
+                            },
+                            "designerId": "b1bfb8ea-339d-453a-b128-883f2d6abc9e",
+                            "cn": [
+                                {
+                                    "type": "Ext.grid.column.CheckColumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "selected",
+                                        "hideable": false,
+                                        "itemId": "checkMail",
+                                        "stopSelection": false,
+                                        "text": "MyCheckColumn",
+                                        "width": 30
+                                    },
+                                    "designerId": "ff390968-15b2-48e5-9ea5-244a3049a076"
+                                },
+                                {
+                                    "type": "Ext.grid.column.Template",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "priority",
+                                        "defaultWidth": null,
+                                        "designer|displayName": "Priority",
+                                        "text": "MyTemplateColumn",
+                                        "width": 35
+                                    },
+                                    "designerId": "60ed15f5-ff08-4fa6-a85f-a854c7756453",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.XTemplate",
+                                            "reference": {
+                                                "name": "tpl",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|displayName": "tpl",
+                                                "implHandler": [
+                                                    "<table>\r",
+                                                    "    <tr>\r",
+                                                    "        <td style=\"padding-right: 8px; vertical-align:middle;\">\r",
+                                                    "            <img src=\"resources/images/{priority}.png\" title=\"{priority} Priority\" />\r",
+                                                    "        </td>\r",
+                                                    "    </tr>\r",
+                                                    "</table>"
+                                                ]
+                                            },
+                                            "designerId": "dcbce964-345c-4956-89a5-7007ea68720b"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.grid.column.Column",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "from",
+                                        "designer|displayName": "From",
+                                        "text": "MyColumn4"
+                                    },
+                                    "designerId": "e5c5febc-2490-4a8e-b3d0-e7154a10151a"
+                                },
+                                {
+                                    "type": "Ext.grid.column.Column",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "subject",
+                                        "designer|displayName": "Subject",
+                                        "text": "MyColumn5"
+                                    },
+                                    "designerId": "66f10090-e0e5-41fb-a591-165a189f7ef8"
+                                },
+                                {
+                                    "type": "Ext.grid.column.Date",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "date",
+                                        "defaultWidth": 200,
+                                        "designer|displayName": "Date",
+                                        "text": "MyDateColumn2"
+                                    },
+                                    "designerId": "f7486e90-7f28-4e27-aa5e-c237d561c8b1"
+                                },
+                                {
+                                    "type": "Ext.grid.View",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "emptyText": "There are no mails in your inbox",
+                                        "height": 500
+                                    },
+                                    "designerId": "e67e3fc4-b3ee-46d9-a8dc-d78fe1c2890c"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.toolbar.Paging",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "displayInfo": true,
+                                "dock": "bottom",
+                                "emptyMsg": "No mails to display",
+                                "id": "paginator",
+                                "itemId": "pagingToolbar",
+                                "store": "MailStore"
+                            },
+                            "designerId": "a415ad7d-5f83-472e-b895-af3b9efb42e4"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoScroll": true,
+                                "bodyPadding": "10 10 10 10",
+                                "border": "2 2 2 2",
+                                "collapsible": false,
+                                "dock": null,
+                                "header": false,
+                                "itemId": "mailPanel",
+                                "layout": "fit",
+                                "layout|flex": 1,
+                                "layout|region": "center",
+                                "layout|split": true,
+                                "manageHeight": false,
+                                "minWidth": null,
+                                "title": "My Panel"
+                            },
+                            "designerId": "920cd1f1-9cd1-481e-ae95-41ef9e7b31bb",
+                            "cn": [
+                                {
+                                    "type": "Ext.toolbar.Toolbar",
+                                    "reference": {
+                                        "name": "dockedItems",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "mailToolbar",
+                                        "dock": "top",
+                                        "hidden": true,
+                                        "itemId": "mailToolbar"
+                                    },
+                                    "designerId": "a55c5b65-21f1-45cf-9a3b-8a04983b5dc3",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "icon": "resources/images/reply.png",
+                                                "itemId": "btnReplay",
+                                                "layout|flex": null,
+                                                "text": ""
+                                            },
+                                            "designerId": "57d8b90c-9b41-4466-82ba-25b8bddc5b70"
+                                        },
+                                        {
+                                            "type": "Ext.toolbar.Separator",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": null
+                                            },
+                                            "designerId": "47af4bc4-4016-4dcc-b6f1-ebbcff30a6f5"
+                                        },
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "icon": "resources/images/forward.png",
+                                                "itemId": "btnForward",
+                                                "layout|flex": null,
+                                                "text": ""
+                                            },
+                                            "designerId": "88cc6e52-9d62-4c02-bba6-c769c50e4ddf"
+                                        },
+                                        {
+                                            "type": "Ext.toolbar.Separator",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": null
+                                            },
+                                            "designerId": "6ccd6905-d979-47d3-88ec-c57931c2c5b3"
+                                        },
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "icon": "resources/images/trash.png",
+                                                "itemId": "btnDelete",
+                                                "layout|flex": null,
+                                                "text": ""
+                                            },
+                                            "designerId": "721dbc4a-66ca-42fc-acff-5685a86ea6da"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<tpl if=\"values.idMail\">\r",
+                                            "    <h1>{subject}</h1>\r",
+                                            "    <p>\r",
+                                            "        {content}\r",
+                                            "    </p>\r",
+                                            "</tpl>\r",
+                                            "\r",
+                                            "<tpl if=\"!values.idMail\">\r",
+                                            "\r",
+                                            "</tpl>"
+                                        ]
+                                    },
+                                    "designerId": "b6bae1ed-ec71-4129-9e63-6a5a1b0f3c2e"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": null,
+                        "bodyPadding": 10,
+                        "cls": "",
+                        "collapsible": true,
+                        "designer|displayName": "leftPanel",
+                        "header": false,
+                        "itemId": "rightPanel",
+                        "layout|flex": 0.3,
+                        "layout|region": "west",
+                        "layout|split": true,
+                        "title": "",
+                        "width": 150
+                    },
+                    "designerId": "42591753-568e-44d8-9c7c-937e4e0cd8e7",
+                    "cn": [
+                        {
+                            "type": "Ext.tree.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoScroll": true,
+                                "collapsible": false,
+                                "folderSort": true,
+                                "itemId": "categoryTreePanel",
+                                "rootVisible": false,
+                                "store": "CategoryStore",
+                                "title": ""
+                            },
+                            "designerId": "3feb35cb-f7fb-4958-9591-00c749f758ba",
+                            "cn": [
+                                {
+                                    "type": "Ext.tree.View",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "itemId": "categoryTree"
+                                    },
+                                    "designerId": "d0909b16-6ad2-4410-8ba4-9d64e1940ef6"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

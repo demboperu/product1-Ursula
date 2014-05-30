@@ -1,0 +1,114 @@
+[
+    {
+        "idContact": "1",
+        "name": "Ursula",
+        "lastname": "Cervantes",
+        "status": "1",
+        "address": "ursula.cervantes@vmail.com"
+    },
+    {
+        "idContact": "2",
+        "name": "Lucia",
+        "lastname": "Cervantes",
+        "status": "1",
+        "address": "lucia.cervantes@vmail.com"
+    },
+    {
+        "idContact": "3",
+        "name": "Astrid",
+        "lastname": "Cervantes",
+        "status": "1",
+        "address": "astrid.cervantes@vmail.com"
+    },
+     {
+        "idContact": "4",
+        "name": "Ursula",
+        "lastname": "Cervantes",
+        "status": "1",
+        "address": "ursula.cervantes@vmail.com"
+    },
+    {
+        "idContact": "5",
+        "name": "Lucia",
+        "lastname": "Cervantes",
+        "status": "1",
+        "address": "lucia.cervantes@vmail.com"
+    },
+    {
+        "idContact": "6",
+        "name": "Astrid",
+        "lastname": "Cervantes",
+        "status": "2",
+        "address": "astrid.cervantes@vmail.com"
+    },
+    {
+        "idContact": "7",
+        "name": "Lucia",
+        "lastname": "Cervantes",
+        "status": "2",
+        "address": "lucia.cervantes@vmail.com"
+    },
+    {
+        "idContact": "8",
+        "name": "Astrid",
+        "lastname": "Cervantes",
+        "status": "2",
+        "address": "astrid.cervantes@vmail.com"
+    },
+     {
+        "idContact": "9",
+        "name": "Ursula",
+        "lastname": "Cervantes",
+        "status": "2",
+        "address": "ursula.cervantes@vmail.com"
+    },
+    {
+        "idContact": "10",
+        "name": "Lucia",
+        "lastname": "Cervantes",
+        "status": "2",
+        "address": "lucia.cervantes@vmail.com"
+    },
+    {
+        "idContact": "11",
+        "name": "Astrid",
+        "lastname": "Cervantes",
+        "status": "3",
+        "address": "astrid.cervantes@vmail.com"
+    },
+    {
+        "idContact": "12",
+        "name": "Lucia",
+        "lastname": "Cervantes",
+        "status": "3",
+        "address": "lucia.cervantes@vmail.com"
+    },
+    {
+        "idContact": "13",
+        "name": "Astrid",
+        "lastname": "Cervantes",
+        "status": "3",
+        "address": "astrid.cervantes@vmail.com"
+    },
+     {
+        "idContact": "14",
+        "name": "Ursula",
+        "lastname": "Cervantes",
+        "status": "3",
+        "address": "ursula.cervantes@vmail.com"
+    },
+    {
+        "idContact": "15",
+        "name": "Lucia",
+        "lastname": "Cervantes",
+        "status": "3",
+        "address": "lucia.cervantes@vmail.com"
+    },
+    {
+        "idContact": "16",
+        "name": "Astrid",
+        "lastname": "Cervantes",
+        "status": "3",
+        "address": "astrid.cervantes@vmail.com"
+    }
+]

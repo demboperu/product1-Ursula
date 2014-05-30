@@ -1,0 +1,42 @@
+/* Replaces default tree node yellow 
+   folder icon with an OSX style one
+*/
+/*
+#containerTreePanel .x-tree-icon-parent {
+    background-image: url("/images/folder.png");
+}
+
+/* This is the open state of the yellow
+   folder icon.
+*/
+/*#containerTreePanel .x-grid-tree-node-expanded .x-tree-icon-parent {
+    background-image: url("/images/icon-fldr-default-closed.png");
+    padding-top: 1px;
+}
+
+/* Replaces the default tree node leaf
+   icon with Hub List list icon
+*/
+/*#containerTreePanel .x-tree-icon-leaf {
+    background-image: url("/images/page.png");
+    width: 14px;
+}  
+
+*/
+
+/* node color override, in case it has entries */
+.x-tree-node .x-tree-selected a span{
+	background : #FF0000;
+	color : yellow;
+}
+ 
+/* node color override, in case it has entries */
+.x-tree-node .x-tree-has-children.x-tree-selected a span{
+	background :#FF0000;
+	color :yellow !important;
+}
+ 
+/* node color override, in case it has entries */
+.x-tree-node .x-tree-has-children a span{
+	color : #FF5500;
+}

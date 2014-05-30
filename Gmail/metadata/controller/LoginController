@@ -1,0 +1,180 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginController"
+    },
+    "designerId": "54af2f0b-c26e-4c4f-a858-9a5f4ab5f3eb",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#btnLogin",
+                "designer|params": [
+                    "target"
+                ],
+                "fn": "login",
+                "implHandler": [
+                    "//Obtain value\r",
+                    "var txtUser = this.getTxtUser();\r",
+                    "var txtPassword = this.getTxtPassword();\r",
+                    "var viewport = this.getAppView();\r",
+                    "\r",
+                    "// Success\r",
+                    "var successCallback = function(response, ops) {\r",
+                    "\r",
+                    "    try{\r",
+                    "        //Received response from the server\r",
+                    "        if(response.responseText!== undefined){\r",
+                    "             response = Ext.decode(response.responseText);\r",
+                    "             if(response.success){\r",
+                    "\r",
+                    "                localStorage.setItem(\"userName\",response.nombre);\r",
+                    "                localStorage.setItem(\"userId\",response.idUsuario);\r",
+                    "\r",
+                    "                //Clean values\r",
+                    "                txtUser.setValue(\"\");\r",
+                    "                txtPassword.setValue(\"\");\r",
+                    "\r",
+                    "                //Set active item un viewport\r",
+                    "                viewport.layout.setActiveItem(1);\r",
+                    "\r",
+                    "             }\r",
+                    "             else {\r",
+                    "                txtPassword.setValue(\"\");\r",
+                    "                Ext.MessageBox.alert('Login failed', 'Username or Password are incorrect. Please try again.');\r",
+                    "             }\r",
+                    "        }else{\r",
+                    "            txtPassword.setValue(\"\");\r",
+                    "            Ext.MessageBox.alert('Login failed', 'Please, try again');\r",
+                    "        }\r",
+                    "    }catch(ex){\r",
+                    "        txtPassword.setValue(\"\");\r",
+                    "        Ext.MessageBox.alert('Login failed', 'Please, try again');\r",
+                    "    }\r",
+                    "\r",
+                    "\r",
+                    "};\r",
+                    "\r",
+                    "// Failure\r",
+                    "var failureCallback = function(resp, ops) {\r",
+                    "\r",
+                    "    //Clean password\r",
+                    "    txtPassword.setValue(\"\");\r",
+                    "\r",
+                    "    // Show login failure error\r",
+                    "    Ext.Msg.alert(\"Login Failure\", 'Unable to connect to the server.');\r",
+                    "\r",
+                    "};\r",
+                    "\r",
+                    "function successCallbackMock(){\r",
+                    "     //Set active item un viewport\r",
+                    "     viewport.layout.setActiveItem(1);\r",
+                    "\r",
+                    "     localStorage.setItem(\"userName\",\"Name\");\r",
+                    "     localStorage.setItem(\"userId\",\"1\");\r",
+                    "\r",
+                    "     //Clean values\r",
+                    "     txtUser.setValue(\"\");\r",
+                    "     txtPassword.setValue(\"\");\r",
+                    "}\r",
+                    "\r",
+                    "function loginRequest(){\r",
+                    "   var url =\r",
+                    "     Ext.Ajax.request({\r",
+                    "            url: \"http://10.50.24.157/user/validate\",\r",
+                    "            method:'GET',\r",
+                    "            params : {\r",
+                    "                user: txtUser.getValue(),\r",
+                    "                password: txtPassword.getValue()\r",
+                    "            },\r",
+                    "            success: successCallback,\r",
+                    "            failure: failureCallback\r",
+                    "     });\r",
+                    "\r",
+                    "}\r",
+                    "\r",
+                    "\r",
+                    "function login(){\r",
+                    "    if(txtUser.getValue()!=='' && txtPassword.getValue()!==''){\r",
+                    "\r",
+                    "        // Just run success for now\r",
+                    "        //successCallbackMock();\r",
+                    "\r",
+                    "        //Login using server-side authentication service\r",
+                    "        loginRequest();\r",
+                    "    }\r",
+                    "}\r",
+                    "\r",
+                    "\r",
+                    "login();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "68aee735-43c6-4318-a6b9-710bdc1f0aaf"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "appView",
+                "selector": "#appView"
+            },
+            "designerId": "3def8eda-0dff-45fb-86ac-7a405218882c"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "txtPassword",
+                "selector": "#txtPassword"
+            },
+            "designerId": "74436e53-65d8-4ac9-82cd-91c2da7e7b2d"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "txtUser",
+                "selector": "#txtUser"
+            },
+            "designerId": "653c8950-4a3e-4b45-9113-b5a6ff2fb302"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "",
+                "ref": "loginPanel",
+                "selector": "#loginPanel"
+            },
+            "designerId": "e18c12d6-68ed-488f-9383-a1bc9e5f38e9"
+        }
+    ]
+}

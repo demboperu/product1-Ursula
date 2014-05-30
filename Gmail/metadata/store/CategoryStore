@@ -1,0 +1,45 @@
+{
+    "type": "Ext.data.TreeStore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "CategoryStore",
+        "folderSort": true,
+        "model": "category",
+        "storeId": "CategoryStore"
+    },
+    "designerId": "407f9e6b-cdd2-4cc0-a310-e915f1b18594",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://10.50.24.157/categories"
+            },
+            "designerId": "cc5defc7-166e-4023-a129-8e5c8d02e70b",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "categoryData",
+                        "root": "children"
+                    },
+                    "designerId": "df3365de-4df4-42a1-a572-d2bb614d8a20"
+                }
+            ]
+        }
+    ]
+}

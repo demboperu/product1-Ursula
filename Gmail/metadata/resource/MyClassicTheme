@@ -1,0 +1,803 @@
+{
+    "type": "classicthemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyClassicTheme"
+    },
+    "designerId": "33afc8d8-aa53-41bd-af2c-61ec27d123c0",
+    "storage": {
+        "needsCompile": false,
+        "simple": {
+            "pkgVersion": 1,
+            "pkgPath": "packages"
+        },
+        "nameIndex": 5,
+        "varData": {
+            "Ext.button.Button": {
+                "globalVars": [
+                    {
+                        "name": "button-arrow-height",
+                        "enabled": true,
+                        "value": "16px"
+                    },
+                    {
+                        "name": "button-arrow-width",
+                        "enabled": true,
+                        "value": "16px"
+                    },
+                    {
+                        "name": "button-default-background-color",
+                        "enabled": true,
+                        "value": "rgba(77,144,254,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-focus",
+                        "enabled": true,
+                        "value": "rgba(53,122,232,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-over",
+                        "enabled": true,
+                        "value": "rgba(53,122,232,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-pressed",
+                        "enabled": true,
+                        "value": "rgba(47,91,183,1)"
+                    },
+                    {
+                        "name": "button-default-color",
+                        "enabled": true,
+                        "value": "rgba(254,254,254,1)"
+                    },
+                    {
+                        "name": "button-large-font-weight",
+                        "enabled": true,
+                        "value": "bold"
+                    },
+                    {
+                        "name": "button-medium-font-weight",
+                        "enabled": true,
+                        "value": "bold"
+                    }
+                ],
+                "uis": [
+                    {
+                        "name": "bluebutton-medium",
+                        "displayName": "blueButton (medium)",
+                        "variables": [
+                            {
+                                "name": "arrow-height",
+                                "value": "$button-medium-arrow-height",
+                                "defValue": "$button-medium-arrow-height"
+                            },
+                            {
+                                "name": "arrow-width",
+                                "value": "$button-medium-arrow-width",
+                                "defValue": "$button-medium-arrow-width"
+                            },
+                            {
+                                "name": "background-color",
+                                "enabled": true,
+                                "value": "rgba(77,144,254,1)",
+                                "defValue": "$button-default-background-color"
+                            },
+                            {
+                                "name": "background-color-disabled",
+                                "value": "$button-default-background-color-disabled",
+                                "defValue": "$button-default-background-color-disabled"
+                            },
+                            {
+                                "name": "background-color-focus",
+                                "value": "$button-default-background-color-focus",
+                                "defValue": "$button-default-background-color-focus"
+                            },
+                            {
+                                "name": "background-color-over",
+                                "enabled": true,
+                                "value": "rgba(53,122,232,1)",
+                                "defValue": "$button-default-background-color-over"
+                            },
+                            {
+                                "name": "background-color-pressed",
+                                "enabled": true,
+                                "value": "rgba(47,91,183,1)",
+                                "defValue": "$button-default-background-color-pressed"
+                            },
+                            {
+                                "name": "background-gradient",
+                                "value": "$button-default-background-gradient",
+                                "defValue": "$button-default-background-gradient"
+                            },
+                            {
+                                "name": "background-gradient-disabled",
+                                "value": "$button-default-background-gradient-disabled",
+                                "defValue": "$button-default-background-gradient-disabled"
+                            },
+                            {
+                                "name": "background-gradient-focus",
+                                "value": "$button-default-background-gradient-focus",
+                                "defValue": "$button-default-background-gradient-focus"
+                            },
+                            {
+                                "name": "background-gradient-over",
+                                "value": "$button-default-background-gradient-over",
+                                "defValue": "$button-default-background-gradient-over"
+                            },
+                            {
+                                "name": "background-gradient-pressed",
+                                "value": "$button-default-background-gradient-pressed",
+                                "defValue": "$button-default-background-gradient-pressed"
+                            },
+                            {
+                                "name": "border-color",
+                                "value": "$button-default-border-color",
+                                "defValue": "$button-default-border-color"
+                            },
+                            {
+                                "name": "border-color-disabled",
+                                "value": "$button-default-border-color-disabled",
+                                "defValue": "$button-default-border-color-disabled"
+                            },
+                            {
+                                "name": "border-color-focus",
+                                "value": "$button-default-border-color-focus",
+                                "defValue": "$button-default-border-color-focus"
+                            },
+                            {
+                                "name": "border-color-over",
+                                "value": "$button-default-border-color-over",
+                                "defValue": "$button-default-border-color-over"
+                            },
+                            {
+                                "name": "border-color-pressed",
+                                "value": "$button-default-border-color-pressed",
+                                "defValue": "$button-default-border-color-pressed"
+                            },
+                            {
+                                "name": "border-radius",
+                                "value": "$button-medium-border-radius",
+                                "defValue": "$button-medium-border-radius"
+                            },
+                            {
+                                "name": "border-width",
+                                "value": "$button-medium-border-width",
+                                "defValue": "$button-medium-border-width"
+                            },
+                            {
+                                "name": "color",
+                                "value": "$button-default-color",
+                                "defValue": "$button-default-color"
+                            },
+                            {
+                                "name": "color-disabled",
+                                "value": "$button-default-color-disabled",
+                                "defValue": "$button-default-color-disabled"
+                            },
+                            {
+                                "name": "color-focus",
+                                "value": "$button-default-color-focus",
+                                "defValue": "$button-default-color-focus"
+                            },
+                            {
+                                "name": "color-over",
+                                "value": "$button-default-color-over",
+                                "defValue": "$button-default-color-over"
+                            },
+                            {
+                                "name": "color-pressed",
+                                "value": "$button-default-color-pressed",
+                                "defValue": "$button-default-color-pressed"
+                            },
+                            {
+                                "name": "font-family",
+                                "value": "$button-medium-font-family",
+                                "defValue": "$button-medium-font-family"
+                            },
+                            {
+                                "name": "font-family-disabled",
+                                "value": "$button-medium-font-family-disabled",
+                                "defValue": "$button-medium-font-family-disabled"
+                            },
+                            {
+                                "name": "font-family-focus",
+                                "value": "$button-medium-font-family-focus",
+                                "defValue": "$button-medium-font-family-focus"
+                            },
+                            {
+                                "name": "font-family-over",
+                                "value": "$button-medium-font-family-over",
+                                "defValue": "$button-medium-font-family-over"
+                            },
+                            {
+                                "name": "font-family-pressed",
+                                "value": "$button-medium-font-family-pressed",
+                                "defValue": "$button-medium-font-family-pressed"
+                            },
+                            {
+                                "name": "font-size",
+                                "value": "$button-medium-font-size",
+                                "defValue": "$button-medium-font-size"
+                            },
+                            {
+                                "name": "font-size-disabled",
+                                "value": "$button-medium-font-size-disabled",
+                                "defValue": "$button-medium-font-size-disabled"
+                            },
+                            {
+                                "name": "font-size-focus",
+                                "value": "$button-medium-font-size-focus",
+                                "defValue": "$button-medium-font-size-focus"
+                            },
+                            {
+                                "name": "font-size-over",
+                                "value": "$button-medium-font-size-over",
+                                "defValue": "$button-medium-font-size-over"
+                            },
+                            {
+                                "name": "font-size-pressed",
+                                "value": "$button-medium-font-size-pressed",
+                                "defValue": "$button-medium-font-size-pressed"
+                            },
+                            {
+                                "name": "font-weight",
+                                "value": "$button-medium-font-weight",
+                                "defValue": "$button-medium-font-weight"
+                            },
+                            {
+                                "name": "font-weight-disabled",
+                                "value": "$button-medium-font-weight-disabled",
+                                "defValue": "$button-medium-font-weight-disabled"
+                            },
+                            {
+                                "name": "font-weight-focus",
+                                "value": "$button-medium-font-weight-focus",
+                                "defValue": "$button-medium-font-weight-focus"
+                            },
+                            {
+                                "name": "font-weight-over",
+                                "value": "$button-medium-font-weight-over",
+                                "defValue": "$button-medium-font-weight-over"
+                            },
+                            {
+                                "name": "font-weight-pressed",
+                                "value": "$button-medium-font-weight-pressed",
+                                "defValue": "$button-medium-font-weight-pressed"
+                            },
+                            {
+                                "name": "glyph-color",
+                                "value": "$button-default-glyph-color",
+                                "defValue": "$button-default-glyph-color"
+                            },
+                            {
+                                "name": "glyph-opacity",
+                                "value": "$button-default-glyph-opacity",
+                                "defValue": "$button-default-glyph-opacity"
+                            },
+                            {
+                                "name": "icon-size",
+                                "value": "$button-medium-icon-size",
+                                "defValue": "$button-medium-icon-size"
+                            },
+                            {
+                                "name": "include-split-noline-arrows",
+                                "value": "false",
+                                "defValue": "false"
+                            },
+                            {
+                                "name": "include-split-over-arrows",
+                                "value": "$button-include-split-over-arrows",
+                                "defValue": "$button-include-split-over-arrows"
+                            },
+                            {
+                                "name": "include-ui-menu-arrows",
+                                "value": "$button-include-ui-menu-arrows",
+                                "defValue": "$button-include-ui-menu-arrows"
+                            },
+                            {
+                                "name": "include-ui-split-arrows",
+                                "value": "$button-include-ui-split-arrows",
+                                "defValue": "$button-include-ui-split-arrows"
+                            },
+                            {
+                                "name": "inner-opacity-disabled",
+                                "value": "$button-inner-opacity-disabled",
+                                "defValue": "$button-inner-opacity-disabled"
+                            },
+                            {
+                                "name": "opacity-disabled",
+                                "value": "$button-opacity-disabled",
+                                "defValue": "$button-opacity-disabled"
+                            },
+                            {
+                                "name": "padding",
+                                "value": "$button-medium-padding",
+                                "defValue": "$button-medium-padding"
+                            },
+                            {
+                                "name": "split-height",
+                                "value": "$button-medium-split-height",
+                                "defValue": "$button-medium-split-height"
+                            },
+                            {
+                                "name": "split-width",
+                                "value": "$button-medium-split-width",
+                                "defValue": "$button-medium-split-width"
+                            },
+                            {
+                                "name": "text-padding",
+                                "value": "$button-medium-text-padding",
+                                "defValue": "$button-medium-text-padding"
+                            }
+                        ],
+                        "baseUiName": "medium"
+                    }
+                ]
+            },
+            "Ext.panel.Panel": {
+                "globalVars": [
+                    {
+                        "name": "panel-base-color",
+                        "enabled": true,
+                        "value": "rgba(241,241,241,1)"
+                    },
+                    {
+                        "name": "panel-body-border-color",
+                        "enabled": true,
+                        "value": "rgba(241,241,241,1)"
+                    },
+                    {
+                        "name": "panel-border-color",
+                        "enabled": true,
+                        "value": "rgba(241,241,241,1)"
+                    },
+                    {
+                        "name": "panel-header-background-color",
+                        "enabled": true,
+                        "value": "rgba(241,241,241,1)"
+                    },
+                    {
+                        "name": "panel-header-color",
+                        "enabled": true,
+                        "value": "rgba(111,111,111,1)"
+                    }
+                ],
+                "uis": [
+                    {
+                        "name": "headerpanelstyle",
+                        "displayName": "headerPanelStyle",
+                        "variables": [
+                            {
+                                "name": "ui-background-stretch-bottom",
+                                "value": "$panel-background-stretch-bottom",
+                                "defValue": "$panel-background-stretch-bottom"
+                            },
+                            {
+                                "name": "ui-background-stretch-left",
+                                "value": "$panel-background-stretch-left",
+                                "defValue": "$panel-background-stretch-left"
+                            },
+                            {
+                                "name": "ui-background-stretch-right",
+                                "value": "$panel-background-stretch-right",
+                                "defValue": "$panel-background-stretch-right"
+                            },
+                            {
+                                "name": "ui-background-stretch-top",
+                                "value": "$panel-background-stretch-top",
+                                "defValue": "$panel-background-stretch-top"
+                            },
+                            {
+                                "name": "ui-body-background-color",
+                                "value": "$panel-body-background-color",
+                                "defValue": "$panel-body-background-color"
+                            },
+                            {
+                                "name": "ui-body-border-color",
+                                "value": "$panel-body-border-color",
+                                "defValue": "$panel-body-border-color"
+                            },
+                            {
+                                "name": "ui-body-border-style",
+                                "value": "$panel-body-border-style",
+                                "defValue": "$panel-body-border-style"
+                            },
+                            {
+                                "name": "ui-body-border-width",
+                                "value": "$panel-body-border-width",
+                                "defValue": "$panel-body-border-width"
+                            },
+                            {
+                                "name": "ui-body-color",
+                                "value": "$panel-body-color",
+                                "defValue": "$panel-body-color"
+                            },
+                            {
+                                "name": "ui-body-font-size",
+                                "value": "$panel-body-font-size",
+                                "defValue": "$panel-body-font-size"
+                            },
+                            {
+                                "name": "ui-body-font-weight",
+                                "value": "$panel-body-font-weight",
+                                "defValue": "$panel-body-font-weight"
+                            },
+                            {
+                                "name": "ui-border-color",
+                                "value": "$panel-border-color",
+                                "defValue": "$panel-border-color"
+                            },
+                            {
+                                "name": "ui-border-radius",
+                                "value": "$panel-border-radius",
+                                "defValue": "$panel-border-radius"
+                            },
+                            {
+                                "name": "ui-border-width",
+                                "value": "$panel-border-width",
+                                "defValue": "$panel-border-width"
+                            },
+                            {
+                                "name": "ui-header-background-color",
+                                "value": "$panel-header-background-color",
+                                "defValue": "$panel-header-background-color"
+                            },
+                            {
+                                "name": "ui-header-background-gradient",
+                                "value": "$panel-header-background-gradient",
+                                "defValue": "$panel-header-background-gradient"
+                            },
+                            {
+                                "name": "ui-header-border-color",
+                                "value": "$panel-header-border-color",
+                                "defValue": "$panel-header-border-color"
+                            },
+                            {
+                                "name": "ui-header-border-style",
+                                "value": "$panel-header-border-style",
+                                "defValue": "$panel-header-border-style"
+                            },
+                            {
+                                "name": "ui-header-border-width",
+                                "value": "$panel-header-border-width",
+                                "defValue": "$panel-header-border-width"
+                            },
+                            {
+                                "name": "ui-header-color",
+                                "value": "$panel-header-color",
+                                "defValue": "$panel-header-color"
+                            },
+                            {
+                                "name": "ui-header-font-family",
+                                "value": "$panel-header-font-family",
+                                "defValue": "$panel-header-font-family"
+                            },
+                            {
+                                "name": "ui-header-font-size",
+                                "value": "$panel-header-font-size",
+                                "defValue": "$panel-header-font-size"
+                            },
+                            {
+                                "name": "ui-header-font-weight",
+                                "value": "$panel-header-font-weight",
+                                "defValue": "$panel-header-font-weight"
+                            },
+                            {
+                                "name": "ui-header-glyph-color",
+                                "value": "$panel-header-glyph-color",
+                                "defValue": "$panel-header-glyph-color"
+                            },
+                            {
+                                "name": "ui-header-glyph-opacity",
+                                "value": "$panel-header-glyph-opacity",
+                                "defValue": "$panel-header-glyph-opacity"
+                            },
+                            {
+                                "name": "ui-header-icon-background-position",
+                                "value": "$panel-header-icon-background-position",
+                                "defValue": "$panel-header-icon-background-position"
+                            },
+                            {
+                                "name": "ui-header-icon-height",
+                                "value": "$panel-header-icon-height",
+                                "defValue": "$panel-header-icon-height"
+                            },
+                            {
+                                "name": "ui-header-icon-spacing",
+                                "value": "$panel-header-icon-spacing",
+                                "defValue": "$panel-header-icon-spacing"
+                            },
+                            {
+                                "name": "ui-header-icon-width",
+                                "value": "$panel-header-icon-width",
+                                "defValue": "$panel-header-icon-width"
+                            },
+                            {
+                                "name": "ui-header-inner-border-color",
+                                "value": "$panel-header-inner-border-color",
+                                "defValue": "$panel-header-inner-border-color"
+                            },
+                            {
+                                "name": "ui-header-inner-border-width",
+                                "value": "$panel-header-inner-border-width",
+                                "defValue": "$panel-header-inner-border-width"
+                            },
+                            {
+                                "name": "ui-header-line-height",
+                                "value": "$panel-header-line-height",
+                                "defValue": "$panel-header-line-height"
+                            },
+                            {
+                                "name": "ui-header-padding",
+                                "value": "$panel-header-padding",
+                                "defValue": "$panel-header-padding"
+                            },
+                            {
+                                "name": "ui-header-text-padding",
+                                "value": "$panel-header-text-padding",
+                                "defValue": "$panel-header-text-padding"
+                            },
+                            {
+                                "name": "ui-header-text-transform",
+                                "value": "$panel-header-text-transform",
+                                "defValue": "$panel-header-text-transform"
+                            },
+                            {
+                                "name": "ui-include-border-management-rules",
+                                "value": "$panel-include-border-management-rules",
+                                "defValue": "$panel-include-border-management-rules"
+                            },
+                            {
+                                "name": "ui-padding",
+                                "value": "0",
+                                "defValue": "0"
+                            },
+                            {
+                                "name": "ui-tool-background-image",
+                                "value": "$panel-tool-background-image",
+                                "defValue": "$panel-tool-background-image"
+                            },
+                            {
+                                "name": "ui-tool-spacing",
+                                "value": "$panel-tool-spacing",
+                                "defValue": "$panel-tool-spacing"
+                            },
+                            {
+                                "name": "ui-wrap-border-color",
+                                "value": "$panel-wrap-border-color",
+                                "defValue": "$panel-wrap-border-color"
+                            },
+                            {
+                                "name": "ui-wrap-border-width",
+                                "value": "$panel-wrap-border-width",
+                                "defValue": "$panel-wrap-border-width"
+                            }
+                        ],
+                        "baseUiName": "default"
+                    },
+                    {
+                        "name": "loginform",
+                        "displayName": "LoginForm",
+                        "variables": [
+                            {
+                                "name": "ui-background-stretch-bottom",
+                                "value": "$panel-background-stretch-bottom",
+                                "defValue": "$panel-background-stretch-bottom"
+                            },
+                            {
+                                "name": "ui-background-stretch-left",
+                                "value": "$panel-background-stretch-left",
+                                "defValue": "$panel-background-stretch-left"
+                            },
+                            {
+                                "name": "ui-background-stretch-right",
+                                "value": "$panel-background-stretch-right",
+                                "defValue": "$panel-background-stretch-right"
+                            },
+                            {
+                                "name": "ui-background-stretch-top",
+                                "value": "$panel-background-stretch-top",
+                                "defValue": "$panel-background-stretch-top"
+                            },
+                            {
+                                "name": "ui-body-background-color",
+                                "enabled": true,
+                                "value": "rgba(247,247,247,1)",
+                                "defValue": "$panel-body-background-color"
+                            },
+                            {
+                                "name": "ui-body-border-color",
+                                "enabled": true,
+                                "value": "rgba(255,255,255,0)",
+                                "defValue": "$panel-body-border-color"
+                            },
+                            {
+                                "name": "ui-body-border-style",
+                                "value": "$panel-body-border-style",
+                                "defValue": "$panel-body-border-style"
+                            },
+                            {
+                                "name": "ui-body-border-width",
+                                "enabled": true,
+                                "value": "0px",
+                                "defValue": "$panel-body-border-width"
+                            },
+                            {
+                                "name": "ui-body-color",
+                                "enabled": false,
+                                "value": "rgba(240,17,17,1)",
+                                "defValue": "$panel-body-color"
+                            },
+                            {
+                                "name": "ui-body-font-size",
+                                "value": "$panel-body-font-size",
+                                "defValue": "$panel-body-font-size"
+                            },
+                            {
+                                "name": "ui-body-font-weight",
+                                "value": "$panel-body-font-weight",
+                                "defValue": "$panel-body-font-weight"
+                            },
+                            {
+                                "name": "ui-border-color",
+                                "enabled": true,
+                                "value": "rgba(241,241,241,0)",
+                                "defValue": "$panel-border-color"
+                            },
+                            {
+                                "name": "ui-border-radius",
+                                "value": "$panel-border-radius",
+                                "defValue": "$panel-border-radius"
+                            },
+                            {
+                                "name": "ui-border-width",
+                                "value": "$panel-border-width",
+                                "defValue": "$panel-border-width"
+                            },
+                            {
+                                "name": "ui-header-background-color",
+                                "value": "$panel-header-background-color",
+                                "defValue": "$panel-header-background-color"
+                            },
+                            {
+                                "name": "ui-header-background-gradient",
+                                "value": "$panel-header-background-gradient",
+                                "defValue": "$panel-header-background-gradient"
+                            },
+                            {
+                                "name": "ui-header-border-color",
+                                "value": "$panel-header-border-color",
+                                "defValue": "$panel-header-border-color"
+                            },
+                            {
+                                "name": "ui-header-border-style",
+                                "value": "$panel-header-border-style",
+                                "defValue": "$panel-header-border-style"
+                            },
+                            {
+                                "name": "ui-header-border-width",
+                                "value": "$panel-header-border-width",
+                                "defValue": "$panel-header-border-width"
+                            },
+                            {
+                                "name": "ui-header-color",
+                                "value": "$panel-header-color",
+                                "defValue": "$panel-header-color"
+                            },
+                            {
+                                "name": "ui-header-font-family",
+                                "value": "$panel-header-font-family",
+                                "defValue": "$panel-header-font-family"
+                            },
+                            {
+                                "name": "ui-header-font-size",
+                                "value": "$panel-header-font-size",
+                                "defValue": "$panel-header-font-size"
+                            },
+                            {
+                                "name": "ui-header-font-weight",
+                                "value": "$panel-header-font-weight",
+                                "defValue": "$panel-header-font-weight"
+                            },
+                            {
+                                "name": "ui-header-glyph-color",
+                                "value": "$panel-header-glyph-color",
+                                "defValue": "$panel-header-glyph-color"
+                            },
+                            {
+                                "name": "ui-header-glyph-opacity",
+                                "value": "$panel-header-glyph-opacity",
+                                "defValue": "$panel-header-glyph-opacity"
+                            },
+                            {
+                                "name": "ui-header-icon-background-position",
+                                "value": "$panel-header-icon-background-position",
+                                "defValue": "$panel-header-icon-background-position"
+                            },
+                            {
+                                "name": "ui-header-icon-height",
+                                "value": "$panel-header-icon-height",
+                                "defValue": "$panel-header-icon-height"
+                            },
+                            {
+                                "name": "ui-header-icon-spacing",
+                                "value": "$panel-header-icon-spacing",
+                                "defValue": "$panel-header-icon-spacing"
+                            },
+                            {
+                                "name": "ui-header-icon-width",
+                                "value": "$panel-header-icon-width",
+                                "defValue": "$panel-header-icon-width"
+                            },
+                            {
+                                "name": "ui-header-inner-border-color",
+                                "value": "$panel-header-inner-border-color",
+                                "defValue": "$panel-header-inner-border-color"
+                            },
+                            {
+                                "name": "ui-header-inner-border-width",
+                                "value": "$panel-header-inner-border-width",
+                                "defValue": "$panel-header-inner-border-width"
+                            },
+                            {
+                                "name": "ui-header-line-height",
+                                "value": "$panel-header-line-height",
+                                "defValue": "$panel-header-line-height"
+                            },
+                            {
+                                "name": "ui-header-padding",
+                                "value": "$panel-header-padding",
+                                "defValue": "$panel-header-padding"
+                            },
+                            {
+                                "name": "ui-header-text-padding",
+                                "value": "$panel-header-text-padding",
+                                "defValue": "$panel-header-text-padding"
+                            },
+                            {
+                                "name": "ui-header-text-transform",
+                                "value": "$panel-header-text-transform",
+                                "defValue": "$panel-header-text-transform"
+                            },
+                            {
+                                "name": "ui-include-border-management-rules",
+                                "value": "$panel-include-border-management-rules",
+                                "defValue": "$panel-include-border-management-rules"
+                            },
+                            {
+                                "name": "ui-padding",
+                                "value": "0",
+                                "defValue": "0"
+                            },
+                            {
+                                "name": "ui-tool-background-image",
+                                "value": "$panel-tool-background-image",
+                                "defValue": "$panel-tool-background-image"
+                            },
+                            {
+                                "name": "ui-tool-spacing",
+                                "value": "$panel-tool-spacing",
+                                "defValue": "$panel-tool-spacing"
+                            },
+                            {
+                                "name": "ui-wrap-border-color",
+                                "value": "$panel-wrap-border-color",
+                                "defValue": "$panel-wrap-border-color"
+                            },
+                            {
+                                "name": "ui-wrap-border-width",
+                                "value": "$panel-wrap-border-width",
+                                "defValue": "$panel-wrap-border-width"
+                            }
+                        ],
+                        "baseUiName": "default"
+                    }
+                ]
+            }
+        }
+    }
+}

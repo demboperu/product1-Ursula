@@ -1,0 +1,44 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "designer|userClassName": "ContactStore",
+        "model": "contact",
+        "storeId": "ContactStore"
+    },
+    "designerId": "dffe1ca1-44b8-498e-bf55-42db029ccdbd",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://10.50.24.157/contacts"
+            },
+            "designerId": "d409da92-7b87-4689-b383-5f13a72002e0",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|createAlias": null,
+                        "designer|displayName": "contactData"
+                    },
+                    "designerId": "801c356e-fb0e-43ff-a6d9-121a6fa94b8b"
+                }
+            ]
+        }
+    ]
+}

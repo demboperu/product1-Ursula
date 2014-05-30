@@ -1,0 +1,186 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "newMailPanel",
+        "designer|userClassName": "mailPanel",
+        "itemId": "newMailForm",
+        "modal": true,
+        "title": "New Mail",
+        "width": 650
+    },
+    "designerId": "2666ee24-5e64-404e-9f89-47fd8c346d9c",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "header": false,
+                "itemId": "mailForm",
+                "title": "My Form",
+                "width": null
+            },
+            "designerId": "88f16df8-3b7b-42cb-8956-4ce249cd142b",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "anyMatch": true,
+                        "displayField": "name",
+                        "fieldLabel": "Label",
+                        "hidden": true,
+                        "itemId": "contactList",
+                        "layout|anchor": "100%",
+                        "minChars": 1,
+                        "multiSelect": true,
+                        "queryMode": "local",
+                        "store": "ContactStore"
+                    },
+                    "designerId": "e017771d-623a-45cd-a4d1-dfcf7a4457e6"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "To:",
+                        "itemId": "txtTo",
+                        "layout|anchor": "100%",
+                        "maxWidth": null,
+                        "minWidth": null,
+                        "name": "to",
+                        "width": null
+                    },
+                    "designerId": "59acbd5b-bcd2-4206-81af-e15d6b627009"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "From:",
+                        "itemId": "txtFrom",
+                        "layout|anchor": "100%",
+                        "name": "from",
+                        "readOnly": true
+                    },
+                    "designerId": "f70f4dfc-dc3d-4ed3-9a8c-03424d0bff31"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Cc:",
+                        "itemId": "txtCc",
+                        "layout|anchor": "100%",
+                        "name": "cc"
+                    },
+                    "designerId": "5478af1d-a3ab-45dd-ab39-7a496697c3c5"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Cco:",
+                        "itemId": "txtCco",
+                        "layout|anchor": "100%",
+                        "name": "cco"
+                    },
+                    "designerId": "0826aa0a-8653-424d-a5c0-e77dd37ceb89"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Subject:",
+                        "itemId": "txtSubject",
+                        "layout|anchor": "100%",
+                        "name": "subject"
+                    },
+                    "designerId": "d2a5f9a0-7f5f-4289-a7ea-a72e4f006676"
+                },
+                {
+                    "type": "Ext.form.field.File",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "",
+                        "itemId": "txtUpload",
+                        "layout|anchor": "100%",
+                        "name": "upload",
+                        "rtl": true
+                    },
+                    "designerId": "8ec2f7c6-bbc7-4cba-9880-0387dedcb987"
+                },
+                {
+                    "type": "Ext.form.field.HtmlEditor",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "height": 255,
+                        "itemId": "txtMailContent",
+                        "layout|anchor": "100%",
+                        "name": "content"
+                    },
+                    "designerId": "e8d78fc2-7364-407b-8916-0b373a422342"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "Send",
+                        "designer|uiInterfaceName": "bluebutton-medium",
+                        "itemId": "btnSend",
+                        "scale": "medium",
+                        "text": "Send",
+                        "ui": "bluebutton"
+                    },
+                    "designerId": "38ae6c3c-ef40-430d-9b35-cacc3b0a736a"
+                }
+            ]
+        }
+    ]
+}

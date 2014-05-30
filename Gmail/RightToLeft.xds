@@ -1,0 +1,62 @@
+{
+    "name": "RightToLeft",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost:90/RightToLeft/",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "015f3750-4435-48a1-8eea-c1cab5b55277",
+            "2666ee24-5e64-404e-9f89-47fd8c346d9c"
+        ],
+        "store": [
+            "246b5c6a-48c9-4c81-b54f-f0a6808569e3",
+            "dffe1ca1-44b8-498e-bf55-42db029ccdbd",
+            "407f9e6b-cdd2-4cc0-a310-e915f1b18594"
+        ],
+        "controller": [
+            "39f09476-61de-4878-9024-d905aef070d3",
+            "2986cadc-2028-4ad7-b32f-7c322714b6a0",
+            "54af2f0b-c26e-4c4f-a858-9a5f4ab5f3eb",
+            "7534657c-912b-44f1-b6d3-1b4ad9de4344"
+        ],
+        "model": [
+            "d62208de-70de-4a89-8a78-b02392276bf7",
+            "ddb3b71a-673e-41f3-af2c-879dfa1a0cc5",
+            "350eb4e0-f8fe-46ce-8794-ac90a6123fbd"
+        ],
+        "resource": [
+            "76d17007-2335-4c00-b7ab-dad9b996582b",
+            "c943ac92-3818-4f3e-9bba-8c16ea0a415d",
+            "33afc8d8-aa53-41bd-af2c-61ec27d123c0"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "MailController",
+            "MyController",
+            "CategoryController",
+            "LoginController"
+        ],
+        "models": [
+            "mail",
+            "contact",
+            "category"
+        ],
+        "name": "MyApp",
+        "stores": [
+            "ContactStore",
+            "CategoryStore",
+            "MailStore"
+        ],
+        "views": [
+            "mailPanel",
+            "AppView"
+        ]
+    },
+    "designerId": "application"
+}

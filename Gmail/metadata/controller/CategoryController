@@ -1,0 +1,108 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CategoryController",
+        "stores": [
+            "CategoryStore",
+            "MailStore"
+        ]
+    },
+    "designerId": "2986cadc-2028-4ad7-b32f-7c322714b6a0",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#categoryTreePanel",
+                "designer|params": [
+                    "node",
+                    "event"
+                ],
+                "fn": "verCategoria",
+                "implHandler": [
+                    "//console.log(node.getSelection()[0].data);\r",
+                    "/*\r",
+                    "store = this.getMailStoreStore();\r",
+                    "\r",
+                    "store.each(function(record)\r",
+                    "{\r",
+                    "  var idCategory = record.data.idCategory;\r",
+                    "  if(idCategory == node.getSelection()[0].raw.idCategory){\r",
+                    "\r",
+                    "  }\r",
+                    "}, this);\r",
+                    "\r",
+                    "*/\r",
+                    "\r",
+                    "\r",
+                    "try{\r",
+                    "    var idCategory = node.getSelection()[0].raw.idCategory;\r",
+                    "    var isLeaf = node.getSelection()[0].raw.leaf;\r",
+                    "    \r",
+                    "    if(idCategory==1){ //general inbox\r",
+                    "        //load user's mails\r",
+                    "        var gridPanel = this.getGridPanel();\r",
+                    "\r",
+                    "        gridPanel.getStore().load({params:{\r",
+                    "            idUsuario: localStorage.getItem(\"userId\")\r",
+                    "            }\r",
+                    "        });\r",
+                    "    }else if(isLeaf===\"false\"){\r",
+                    "        return;\r",
+                    "    }else{\r",
+                    "        //load user's mails\r",
+                    "        var gridPanel = this.getGridPanel();\r",
+                    "\r",
+                    "        gridPanel.getStore().load({params:{\r",
+                    "            idUsuario: localStorage.getItem(\"userId\"),\r",
+                    "            idCategoria: idCategory\r",
+                    "            }\r",
+                    "        });\r",
+                    "    }\r",
+                    "\r",
+                    "}catch(ex){\r",
+                    "    Ext.Msg.alert(\"Refresh Failure\", 'Cannot refresh inbox. Please, try later');\r",
+                    "}"
+                ],
+                "name": "select",
+                "scope": "me"
+            },
+            "designerId": "6ef77b7c-47fc-46ec-8480-66305e7ba938"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "gridPanel",
+                "selector": "#gridPanel"
+            },
+            "designerId": "8e0dff4f-83b5-47de-8011-cc9cd3e3935d"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "categoryTreePanel",
+                "selector": "#categoryTreePanel"
+            },
+            "designerId": "ee682cb0-85f3-4974-b255-7803eca9ed82"
+        }
+    ]
+}

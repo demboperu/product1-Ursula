@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "children": [
+    {
+      "idCategory": 1,
+      "text": "Inbox",
+      "expanded": false,
+      "idParent": null,
+      "leaf": 0,
+      "children": []
+    },
+    {
+      "idCategory": 2,
+      "text": "Folder",
+      "expanded": false,
+      "idParent": null,
+      "leaf": 0,
+      "children": [
+        {
+          "idCategory": 8,
+          "text": "Work",
+          "expanded": false,
+          "idParent": 2,
+          "leaf": 1,
+          "children": []
+        },
+        {
+          "idCategory": 9,
+          "text": "Personal",
+          "expanded": false,
+          "idParent": 2,
+          "leaf": 1,
+          "children": []
+        },
+        {
+          "idCategory": 10,
+          "text": "Bank",
+          "expanded": false,
+          "idParent": 2,
+          "leaf": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "idCategory": 11,
+      "text": "Trash",
+      "expanded": false,
+      "idParent": null,
+      "leaf": 0,
+      "children": []
+    }
+  ]
+}

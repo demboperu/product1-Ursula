@@ -1,0 +1,48 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "designer|userClassName": "MailStore",
+        "model": "mail",
+        "pageSize": 15,
+        "storeId": "MailStore"
+    },
+    "designerId": "246b5c6a-48c9-4c81-b54f-f0a6808569e3",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "filterParam": "idUsuario",
+                "idParam": "idMail",
+                "url": "http://10.50.24.157/mails"
+            },
+            "designerId": "da0144c7-f0f8-4e70-b183-441d5e1ab574",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|createAlias": null,
+                        "designer|displayName": "mailData",
+                        "idProperty": null
+                    },
+                    "designerId": "2247a975-0ab4-426a-b885-b40d92a432bc"
+                }
+            ]
+        }
+    ]
+}
